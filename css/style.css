@@ -74,7 +74,7 @@ footer {
     }
 
 span.icon {
-      background: url('g-normal.png') transparent 5px 50% no-repeat;
+      background: url('/imagens/g-normal.png') transparent 5px 50% no-repeat;
       display: inline-block;
       vertical-align: middle;
       width: 42px;
