@@ -1,0 +1,94 @@
+body {
+    background: hsl(260deg 39% 23%);
+    font-family: 'Stick', sans-serif;
+    font: 15pt; 
+    margin-top: 5%;     
+    height: 100vh; 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-25deg, #8600b3 50%, #cc33ff 50%) ;                                                  
+}
+
+header {
+    color: white;
+    text-align: center;  
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px 2%;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+div#gSignInWrapper {
+    
+    text-align: center;
+    padding: 20px 2%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#cabecalho {
+        width: auto;
+        height: 93px;
+        padding: 20px 2%;
+        color: white;
+        text-align: center;
+}
+
+#corpo{
+        width: auto;
+        padding: 30px 2%;
+        text-align: center;
+
+    }
+
+footer {
+    width: 400px;
+    margin: auto;
+    padding: 10px 2%;
+    text-align: center;
+    color: white;
+    font-style: italic; 
+}
+
+#customBtn {
+    text-align: center;
+    display: block;
+    width: auto;
+    background: white;
+    color: #444;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    
+}
+
+#customBtn:hover {
+      cursor: pointer;
+    }
+
+span.icon {
+      background: url('g-normal.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 42px;
+      height: 42px;
+      padding-left: 50px;
+    }
+
+span.buttonText {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 42px;
+      padding-right: 42px;
+      font-size: 14px;
+      font-weight: bold;
+      /* Use a fonte Roboto que está carregada no <head> */
+      font-family: 'Roboto', sans-serif;
+    }
